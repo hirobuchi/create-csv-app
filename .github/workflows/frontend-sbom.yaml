@@ -3,9 +3,7 @@ name: Frontend SBOM
 on:
   pull_request:
   push:
-    branches: [ master, main ]
-  schedule:
-    - cron: '0 0 * * *'
+    branches: [ master ]
 
 jobs:
   sbom-scan:
